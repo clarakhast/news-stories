@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Lato:400,900&display=swap');
+
 body {
   background-color: lightgrey;
+  font-family: 'Crimson Text', serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+}
+
 .stories {
   text-align: center;
 }
@@ -10,10 +18,57 @@ body {
   overflow: hidden;
   max-width: 30em;
   margin: 1em 0;
+  text-align: left;
+  box-shadow: 0.3em 0.3em rgba(0,0,0,0.3);
+  border-radius: 0.5em;
+  text-align: center;
 }
 .news-lead {
   text-align: center;
 }
 .news-img {
   max-width: 100%;
+  padding: 0;
+}
+
+.news-content {
+  padding: 0 1em;
+}
+
+.story-btn {
+  display: inline-block;
+  width: 95%;
+  border: 0.1em solid #000;
+  text-decoration: none;
+  color: #050707;
+  margin-bottom: 1em;
+  padding: 0.5em 0;
+  font-weight: bold;
+
+}
+
+.story-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.page-num {
+  text-decoration: none;
+  padding: 0.3em;
+  color: #000;
+  font-size: 1.2em;
+}
+
+.page-num:hover {
+  font-weight: bold;
+  color: #f0a741;
+}
+
+.active {
+  color: #f0a741;
+  text-shadow: 1px 1px 0000;
 }
