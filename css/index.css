@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   margin: 1em 0.5em;
   text-align: left;
-  box-shadow: 0.3em 0.3em rgba(0,0,0,0.3);
+  box-shadow: 0.4em 0.4em 0.5em rgba(0,0,0,0.5);
   border-radius: 0.5em;
   text-align: center;
 
