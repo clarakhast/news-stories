@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Lato:400,900&display=swap');
+@import url('httpsz://fonts.googleapis.com/css?family=Crimson+Text|Lato:400,900&display=swap');
 
 body {
   background-color: lightgrey;
@@ -11,17 +11,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .stories {
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .news {
   background-color: white;
-  display: inline-block;
   overflow: hidden;
-  max-width: 30em;
-  margin: 1em 0;
+  margin: 1em 0.5em;
   text-align: left;
   box-shadow: 0.3em 0.3em rgba(0,0,0,0.3);
   border-radius: 0.5em;
   text-align: center;
+
 }
 .news-lead {
   text-align: center;
