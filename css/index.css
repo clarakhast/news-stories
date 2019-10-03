@@ -96,15 +96,15 @@ h1, h2, h3, h4, h5, h6 {
   }
   .news {
     font-size: 1.2em;
-    margin: 0.5em 0;
+    margin: 0.5em auto;
     box-shadow: none;
   }
 
 }
 
 @media screen and (min-width: 40em) and (max-width: 60em) {
-	
-	.stories {
+  
+  .stories {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
