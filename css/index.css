@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap:1em;
-  max-width: 60em;
+  max-width: 70em;
   margin: auto;
   
 }
@@ -84,4 +84,33 @@ h1, h2, h3, h4, h5, h6 {
 
 .pagination-list-item {
   display: inline-block;
+}
+
+/* *******************************
+          MEDIA QUERIES 
+**********************************/
+
+@media screen and (max-width:40em ) {
+  .stories {
+    display:block;
+  }
+  .news {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    box-shadow: none;
+  }
+
+}
+
+@media screen and (min-width: 40em) and (max-width: 60em) {
+	
+	.stories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .news {
+    font-size: 1.1em;
+  }
+
 }
