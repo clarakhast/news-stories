@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
           MEDIA QUERIES 
 **********************************/
 
-@media screen and (max-width:40em ) {
+/* @media screen and (max-width:40em ) {
   .stories {
     display:block;
   }
@@ -113,4 +113,29 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.1em;
   }
 
+} */
+
+@media screen and (min-width:37.5em ) {
+  .stories {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    padding: 1em;
+  }
 }
+
+@media screen and (min-width:64em ) {
+  .stories {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width:100em ) {
+  body{
+    font-size: 1.2em;
+  }
+  .stories {
+    max-width: 83.333333em;
+  }
+}
+
